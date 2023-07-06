@@ -5,3 +5,20 @@ h1{
     color: blueviolet;
     cursor: pointer;
 }
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 110px;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}
